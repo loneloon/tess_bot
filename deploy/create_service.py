@@ -2,6 +2,8 @@ import os
 
 package_path = os.path.abspath("..")
 
+print(package_path)
+
 if os.path.exists("/usr/lib/systemd/system"):
     if not os.path.exists("/usr/lib/systemd/system/tess_bot.service"):
         try:
