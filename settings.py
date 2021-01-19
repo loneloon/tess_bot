@@ -1,7 +1,7 @@
 
-SECRET_GROUP = '@testjinxt0'
+SECRET_GROUP = '*'
 
-TOKEN = "1241217774:AAGrnbja0zr4dK1fIiEVe3SKwsTltyEL3K8"
+TOKEN = "*"
 
 GREETING = 'Hello, '  # username is appended after
 
@@ -17,7 +17,7 @@ DB_NAME = 'sqlite:///test_bot_db.db3'
 QUESTIONS = {
     1: ("Is 5 more than 3?", "yes"),
     2: ("Is 7 a prime number?", "yes"),
-    3: ("How many genders are there?", "2")
+    3: ("Am i actually useful?", "yes")
 }
 
 ALREADY_TESTED = 'You have already tested!'
